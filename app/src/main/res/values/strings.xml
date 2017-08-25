@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab01</string>
+    <string name="appTag">Calculadora de plazo fijo</string>
+    <string name="mailTag">Correo electronico</string>
+    <string name="cuitTag">CUIT</string>
+    <string name="importeTag">Importe</string>
+    <string name="cantDiasTag">Cantidad de dias</string>
+    <string name="smallTextTag">Small Text</string>
+    <string name="renewVencimiento">Renovar Automáticamente Vencimiento</string>
+    <string name="plazoFijoBtn">HACER PLAZO FIJO</string>
+</resources>

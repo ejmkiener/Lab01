@@ -11,44 +11,60 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appTag"
-         />
+        android:textSize="20sp"
+
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/mailTag"
+        android:textSize="20sp"
         />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/cuitTag"/>
+        android:text="@string/cuitTag"
+        android:textSize="20sp"
+        />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/importeTag"/>
+        android:text="@string/importeTag"
+        android:textSize="20sp"
+        />
 
     <EditText
+        android:id="@+id/importeInicial"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cantDiasTag"
+        android:textSize="20sp"
         />
 
     <SeekBar
         android:id="@+id/seekBar1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        />
 
     <TextView
         android:id="@+id/seekBarVal"
@@ -59,23 +75,27 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textSize="20sp"
         android:text="@string/smallTextTag"/>
 
     <TextView
         android:id="@+id/importePlazoFijo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
 
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/renewVencimiento"/>
+        android:text="@string/renewVencimiento"
+        />
 
     <Button
+        android:id="@+id/plazoFijoBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/plazoFijoBtn"/>
+        android:text="@string/plazoFijoBtn"
+        android:textSize="20sp" />
 
 
 </LinearLayout>

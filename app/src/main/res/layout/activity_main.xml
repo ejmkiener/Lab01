@@ -78,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="@string/smallTextTag"/>
+        android:text="@string/interesLbl"/>
 
     <TextView
         android:id="@+id/importePlazoFijo"

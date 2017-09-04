@@ -21,11 +21,12 @@
         android:text="@string/mailTag"
         android:textSize="20sp"
         />
+
     <EditText
+        android:id="@+id/correoET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        />
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -35,6 +36,7 @@
         />
 
     <EditText
+        android:id="@+id/cuitET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -96,6 +98,12 @@
         android:layout_height="wrap_content"
         android:text="@string/plazoFijoBtn"
         android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/operationMsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"/>
 
 
 </LinearLayout>

@@ -8,4 +8,5 @@
     <string name="smallTextTag">Small Text</string>
     <string name="renewVencimiento">Renovar Automáticamente Vencimiento</string>
     <string name="plazoFijoBtn">HACER PLAZO FIJO</string>
+    <string name="errorMsg">No se pudo realizar la operacion.</string>
 </resources>

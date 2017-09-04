@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Initialize
         df=new DecimalFormat("#.##");
         correo=(EditText)findViewById(R.id.correoET);
         cuit=(EditText)findViewById(R.id.cuitET);
